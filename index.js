@@ -9,7 +9,7 @@
   //can not start with a number
   //can not contain a space or hyphen (-)
   //are case-sensitive
-  */
+
 //PRIMITIVES/VALUE TYPES
   let firstname = "lwena";      //String
   const pei = 9;               //number
@@ -20,13 +20,15 @@
   console.log(pei)
   console.log(tall)
 
-  //REFERENCE VALUES
+  //REFERENCE VALUES*/
+        //object
   let person = {
     name: "lwena",
-    age : 25
+    age : 25,
+    uu : true
   };
-  console.log(person.name);
-  //to change name 
+  console.log(person.uu);
+  /*//to change name 
       //1dot notation
       person.name= "adam"
       console.log(person.name);
@@ -52,5 +54,8 @@
    function square(number)  {
     return number*number
 }         
-//let number1 = square(2);
-console.log(square(2));
+square(8);
+console.log(square());*/
+
+
+
